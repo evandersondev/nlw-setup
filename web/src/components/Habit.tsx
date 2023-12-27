@@ -1,0 +1,9 @@
+interface HabitProps {
+  completed: number
+}
+
+export function Habit({completed}: HabitProps) {
+  return (
+    <div className="bg-zinc-900 h-10 w-10 text-white rounded m-2 flex items-center justify-center">{completed}</div>
+  )
+}
